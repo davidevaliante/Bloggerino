@@ -1,0 +1,38 @@
+"src\\components\\EditPage.js": [
+  {
+    lineNumber: 5
+    title: "Props passati dal Router"
+    content: '''
+      <h1>HASH :</h1>
+      <p>
+        se dal browser cambio i link in 'http://localhost:3000/Edit#qualcosa' posso accedere a quel valore in props.location.hash
+        <- di base un link del genere scrollafino a quando on trova nell 'html un elemento con un id uguale
+        all'hash: '#qualcosa' </p>
+      
+          <h1>QUERY :</h1>
+          <p>
+            stessa cosa utilizzando 'http://localhost:3000/Edit?qualcosa=3&altra_roba='lol'' mi da all'interno di props.location.search '?qualcosa=3&altra_roba=lol'
+          </p>
+      
+          <h1>DYNAMIC-LINK :</h1>
+          <p>
+            Editando il Route in appRouter con :id posssiamo trovare il valore all'interno di props.match.params.id
+          </p>
+    '''
+    type: "html"
+  }
+]
+"src\\playground\\destructuring.js": [
+  {
+    lineNumber: 40
+    title: "Destructuring JSON fields"
+    content: '''
+      <h2>Field <i>esterni</i> :</h2>
+      <p>Crea all'interno dello script le variabili estratte utilizzando lo stesso nome dell'oggetto passato, vale anche per oggetti interni all'oggetto</p>
+      <br>
+      <h2>Field <i>interni</i> :</h2>
+      <p>Crea all'interno dello script le variabili estratte utilizzando lo stesso nome</p>
+    '''
+    type: "html"
+  }
+]
